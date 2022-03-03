@@ -81,7 +81,7 @@ body {
 
 /* Wedding Event Style */
 .events{
-  background: url("../images/Door.jpg");
+  background: url("../images/Poor.jpg");
   background-size: cover;
   background-position: bottom;
 
@@ -212,4 +212,22 @@ body {
 }
 .mb-4, .my-4 {
     margin-bottom: 3rem!important;
+}
+
+
+ul{
+  list-style-type: none!important;
+}
+
+.traffic{
+  background: url("../images/Door.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.traffic ul{
+  padding-bottom: 20px;
+}
+.traffic i{
+  margin-right: 10px;
 }
