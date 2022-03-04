@@ -29,10 +29,21 @@
         }
       </style>
     </noscript>
-    
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
   </head>
   <body id="top">
-    <header></header>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '9019010ffc826ac8b65d721b1864168a',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v13.0'
+    });
+  };
+</script>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v13.0&appId=915763949092558&autoLogAppEvents=1" nonce="3x4UnNKZ"></script>
     <div class="page-content">
       <div class="div">
         <div class="ww-home-page" id="home">
@@ -223,19 +234,15 @@
         </div>
       </div>
     </div>
-    <!-- <footer>
+    <footer>
       <div class="ww-section bg-light" id="comments">
         <div class="container">
           <h2 class="h1 text-center pb-3 ww-title mb-4 text-dark" data-aos="zoom-in-down" data-aos-duration="1000">Your Comments</h2>
           <div class="text-left row ">
-           <div id="fb-root"></div>
-              <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v13.0" nonce="AxA5f5Yf"></script>
-              <div class="fb-page" data-href="https://www.facebook.com/groups/1168249287315322" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F1168249287315322&tabs=timeline&width=0&height=0&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-          </div>
+            <div class="fb-comments" data-href="https://dianlee.github.io/index.html" data-width="500" data-numposts="5"></div>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <script src="scripts/jquery.min.js?ver=1.1.0"></script>
     <script src="scripts/bootstrap.bundle.min.js?ver=1.1.0"></script>
     <script src="scripts/aos.js?ver=1.1.0"></script>
